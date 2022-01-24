@@ -1,5 +1,5 @@
 { 
-    "browsers": ["chrome","edge", "chrome:emulation:device=iphone X"],
+    "browsers": ["chrome"],
     "src": "Modules/*.js",
     "skipJsErrors": true, 
     "concurrency": 1,
