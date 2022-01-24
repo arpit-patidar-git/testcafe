@@ -1,0 +1,540 @@
+[
+  {
+    "description": "Login",
+    "elements": [
+      {
+        "id": "ScenarioSuccessful Login",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Successful Login",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:1:0"
+            },
+            "name": "Successful Login",
+            "result": {
+              "duration": 21107,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Successful Login</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioUnsuccessful Login with invalid username",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Unsuccessful Login with invalid username",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:1:0"
+            },
+            "name": "Unsuccessful Login with invalid username",
+            "result": {
+              "duration": 24730,
+              "error_message": "1) Uncaught exception:\n\n   Error:\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Unsuccessful Login with invalid username</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioUnsuccessful Login with wrong password",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Unsuccessful Login with wrong password",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:1:0"
+            },
+            "name": "Unsuccessful Login with wrong password",
+            "result": {
+              "duration": 14384,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Unsuccessful Login with wrong password</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioUnsuccessful Login with wrong username",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Unsuccessful Login with wrong username",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:1:0"
+            },
+            "name": "Unsuccessful Login with wrong username",
+            "result": {
+              "duration": 18861,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Unsuccessful Login with wrong username</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioUnsuccessful Login with no username",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Unsuccessful Login with no username",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:1:0"
+            },
+            "name": "Unsuccessful Login with no username",
+            "result": {
+              "duration": 13420,
+              "error_message": "1) AssertionError: the given combination of arguments (function and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)\n\n      52 | \n      53 | test('Unsuccessful Login with no username', async t => {\n      54 |     //LoginPage.clickLogin()\n      55 |     LoginPage.enterPassword(validPassword)\n      56 |     LoginPage.clickLoginSubmit() \n   --------------------------------------------\n    &rarr; 57 |     await t.expect(LoginPage.LoginPage_ValidUsername_Message).contains(nofieldError)\n   --------------------------------------------\n      58 | });\n      59 | \n      60 | test('Unsuccessful Login with no password', async t => {\n      61 |     //LoginPage.clickLogin()\n      62 |     LoginPage.enterUserName(validUsername)\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:57:63)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:263)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:601)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:766)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:507)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:53:5)\n",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Unsuccessful Login with no username</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioUnsuccessful Login with no password",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Unsuccessful Login with no password",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:1:0"
+            },
+            "name": "Unsuccessful Login with no password",
+            "result": {
+              "duration": 10447,
+              "error_message": "1) AssertionError: the given combination of arguments (function and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)\n\n      59 | \n      60 | test('Unsuccessful Login with no password', async t => {\n      61 |     //LoginPage.clickLogin()\n      62 |     LoginPage.enterUserName(validUsername)\n      63 |     LoginPage.clickLoginSubmit() \n   --------------------------------------------\n    &rarr; 64 |     await t.expect(LoginPage.LoginPage_ValidPassword_Message).contains(nofieldError)    \n   --------------------------------------------\n      65 | });\n      66 | \n      67 | test('Unsuccessful Login with no username and password', async t => {\n      68 |     //LoginPage.clickLogin()\n      69 |     LoginPage.clickLoginSubmit() \n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:64:63)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:263)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:601)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:766)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:507)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:60:5)\n",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Unsuccessful Login with no password</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioUnsuccessful Login with no username and password",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Unsuccessful Login with no username and password",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:1:0"
+            },
+            "name": "Unsuccessful Login with no username and password",
+            "result": {
+              "duration": 10019,
+              "error_message": "1) AssertionError: the given combination of arguments (function and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)\n\n      65 | });\n      66 | \n      67 | test('Unsuccessful Login with no username and password', async t => {\n      68 |     //LoginPage.clickLogin()\n      69 |     LoginPage.clickLoginSubmit() \n   --------------------------------------------\n    &rarr; 70 |     await t.expect(LoginPage.LoginPage_ValidPassword_Message).contains(nofieldError)   \n   --------------------------------------------\n      71 |     await t.expect(LoginPage.LoginPage_ValidUsername_Message).contains(nofieldError)     \n      72 | });\n      73 | \n      74 | \n      75 | test('Successful Logout', async t => {\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:70:63)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:263)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:601)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:766)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:507)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:67:5)\n",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Unsuccessful Login with no username and password</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioSuccessful Logout",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Successful Logout",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:1:0"
+            },
+            "name": "Successful Logout",
+            "result": {
+              "duration": 28794,
+              "error_message": "1) The element that matches the specified selector is not visible.\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)\n\n       8 |         this.HomePage_Logout_Button = Selector('a[href=\"/sign_out\"]')\n       9 |     }\n      10 | \n      11 |     async clickMenu(){\n      12 |         await t\n   --------------------------------------------\n    &rarr; 13 |         .click(this.HomePage_Menu_Dropdown)\n   --------------------------------------------\n      14 |     }\n      15 |     async clickLogout(){\n      16 |         await t \n      17 |         .click(this.HomePage_Logout_Button).wait(2000)\n      18 |     }\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\HomePage.js:13:10)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\HomePage.js:1:293)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\HomePage.js:1:631)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\HomePage.js:1:796)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\HomePage.js:1:537)\n      at HomePage.clickMenu (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\HomePage.js:11:22)\n\n      75 | test('Successful Logout', async t => {\n      76 |     //LoginPage.clickLogin()\n      77 |      LoginPage.enterUserName(validUsername)\n      78 |      LoginPage.enterPassword(validPassword)\n      79 |      LoginPage.clickLoginSubmit() \n   --------------------------------------------\n    &rarr; 80 |     HomePage.clickMenu()\n   --------------------------------------------\n      81 |     HomePage.clickLogout()\n      82 |     await t.expect(LoginPage.Login_button.exists).ok(); \n      83 |      \n      84 | });\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:80:14)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:263)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:601)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:766)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:507)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:75:5)\n\n2) undefinedUnhandled promise rejection:\n\n     { code: 'E26', isTestCafeError: true, callsite: CallsiteRecord { filename: 'D:\\\\Arpit\\\\Cypress_TestCafe\\\\TestCafe_Project\\\\Pages\\\\HomePage.js', lineNum: 12, callsiteFrameIdx: 5, stackFrames: [\n   [Object],    [Object],    [Object],\n   [Object],    [Object],    [Object],\n   CallSite {}, [Object],    [Object],\n   [Object],    CallSite {}, [Object],\n   [Object],    [Object],    CallSite {},\n   [Object],    [Object],    [Object],\n   CallSite {}, [Object],    [Object],\n   [Object],    [Object],    [Object],\n   [Object],    [Object],    CallSite {},\n   [Object]\n   ], isV8Frames: true }, id: 'FN94saF' }\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Successful Logout</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Login",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "97.0.4692.99"
+      },
+      "device": "Windows  (Emulating iPhone X)",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-01-24T05:51:22.059Z",
+      "startTime": "2022-01-24T05:47:04.050Z"
+    },
+    "name": "Login",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@successful"
+      },
+      {
+        "line": 0,
+        "name": "@logout"
+      },
+      {
+        "line": 0,
+        "name": "@unsuccessful"
+      },
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@username"
+      },
+      {
+        "line": 0,
+        "name": "@password"
+      },
+      {
+        "line": 0,
+        "name": "@wrong"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      }
+    ],
+    "uri": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:1"
+  },
+  {
+    "description": "Signup",
+    "elements": [
+      {
+        "id": "ScenarioUnsuccessful Signup with already existing email",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Unsuccessful Signup with already existing email",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:1:0"
+            },
+            "name": "Unsuccessful Signup with already existing email",
+            "result": {
+              "duration": 22787,
+              "error_message": "1) The element that matches the specified selector is not visible.\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)\n\n      25 |      \n      26 |    \n      27 | \n      28 |     async clickSignup(){\n      29 |         await t\n   --------------------------------------------\n    &rarr; 30 |         .maximizeWindow().click(this.Signup_Button)\n   --------------------------------------------\n      31 |     }\n      32 |     async enterFullName(name){\n      33 |         await t \n      34 |         .typeText(this.Signup_Name_Input, name)\n      35 |     }\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:30:27)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:293)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:631)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:796)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:537)\n      at SignupPage.clickSignup (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:28:24)\n\n      23 |     .page(url);\n      24 | \n      25 | \n      26 | \n      27 | test('Unsuccessful Signup with already existing email', async t => {\n   --------------------------------------------\n    &rarr; 28 |     SignupPage.clickSignup()\n   --------------------------------------------\n      29 |     SignupPage.enterFullName(name)\n      30 |     SignupPage.enterEmail(old_email)\n      31 |     LoginPage.enterPassword(password)\n      32 |     SignupPage.clickSignupSubmit()\n      33 |     await t.expect(SignupPage.Signup_Invalid_Credentials_Message.innerText).contains(userAlreadyExistMessage);\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:28:16)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:267)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:605)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:770)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:511)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:27:5)\n\n2) undefinedUnhandled promise rejection:\n\n     { code: 'E26', isTestCafeError: true, callsite: CallsiteRecord { filename: 'D:\\\\Arpit\\\\Cypress_TestCafe\\\\TestCafe_Project\\\\Pages\\\\SignupPage.js', lineNum: 29, callsiteFrameIdx: 5, stackFrames: [\n   [Object],    [Object],    [Object],\n   [Object],    [Object],    [Object],\n   CallSite {}, [Object],    [Object],\n   [Object],    CallSite {}, [Object],\n   [Object],    [Object],    CallSite {},\n   [Object],    [Object],    [Object],\n   CallSite {}, [Object],    [Object],\n   [Object],    [Object],    [Object],\n   [Object],    [Object],    CallSite {},\n   [Object]\n   ], isV8Frames: true }, id: 'v~NPu_p' }\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Unsuccessful Signup with already existing email</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioUnsuccessful Signup with invalid email",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Unsuccessful Signup with invalid email",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:1:0"
+            },
+            "name": "Unsuccessful Signup with invalid email",
+            "result": {
+              "duration": 23372,
+              "error_message": "1) The element that matches the specified selector is not visible.\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)\n\n      25 |      \n      26 |    \n      27 | \n      28 |     async clickSignup(){\n      29 |         await t\n   --------------------------------------------\n    &rarr; 30 |         .maximizeWindow().click(this.Signup_Button)\n   --------------------------------------------\n      31 |     }\n      32 |     async enterFullName(name){\n      33 |         await t \n      34 |         .typeText(this.Signup_Name_Input, name)\n      35 |     }\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:30:27)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:293)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:631)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:796)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:537)\n      at SignupPage.clickSignup (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:28:24)\n\n      33 |     await t.expect(SignupPage.Signup_Invalid_Credentials_Message.innerText).contains(userAlreadyExistMessage);\n      34 | \n      35 | });\n      36 | \n      37 | test('Unsuccessful Signup with invalid email', async t => {\n   --------------------------------------------\n    &rarr; 38 |     SignupPage.clickSignup()\n   --------------------------------------------\n      39 |     SignupPage.enterFullName(name)\n      40 |     SignupPage.enterEmail(email_start)\n      41 |     LoginPage.enterPassword(password)\n      42 |     SignupPage.clickSignupSubmit()\n      43 |     await t.expect(SignupPage.Signup_Invalid_Credentials_Message.innerText).contains(invalidUserNameMessage);\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:38:16)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:267)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:605)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:770)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:511)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:37:5)\n\n2) undefinedUnhandled promise rejection:\n\n     { code: 'E26', isTestCafeError: true, callsite: CallsiteRecord { filename: 'D:\\\\Arpit\\\\Cypress_TestCafe\\\\TestCafe_Project\\\\Pages\\\\SignupPage.js', lineNum: 29, callsiteFrameIdx: 5, stackFrames: [\n   [Object],    [Object],    [Object],\n   [Object],    [Object],    [Object],\n   CallSite {}, [Object],    [Object],\n   [Object],    CallSite {}, [Object],\n   [Object],    [Object],    CallSite {},\n   [Object],    [Object],    [Object],\n   CallSite {}, [Object],    [Object],\n   [Object],    [Object],    [Object],\n   [Object],    [Object],    CallSite {},\n   [Object]\n   ], isV8Frames: true }, id: 'CCmoQMd' }\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Unsuccessful Signup with invalid email</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioUnsuccessful Signup with invalid password",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Unsuccessful Signup with invalid password",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:1:0"
+            },
+            "name": "Unsuccessful Signup with invalid password",
+            "result": {
+              "duration": 25049,
+              "error_message": "1) The element that matches the specified selector is not visible.\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)\n\n      25 |      \n      26 |    \n      27 | \n      28 |     async clickSignup(){\n      29 |         await t\n   --------------------------------------------\n    &rarr; 30 |         .maximizeWindow().click(this.Signup_Button)\n   --------------------------------------------\n      31 |     }\n      32 |     async enterFullName(name){\n      33 |         await t \n      34 |         .typeText(this.Signup_Name_Input, name)\n      35 |     }\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:30:27)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:293)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:631)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:796)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:537)\n      at SignupPage.clickSignup (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:28:24)\n\n      42 |     SignupPage.clickSignupSubmit()\n      43 |     await t.expect(SignupPage.Signup_Invalid_Credentials_Message.innerText).contains(invalidUserNameMessage);\n      44 | });\n      45 | \n      46 | test('Unsuccessful Signup with invalid password', async t => {\n   --------------------------------------------\n    &rarr; 47 |     SignupPage.clickSignup()\n   --------------------------------------------\n      48 |     SignupPage.enterFullName(name)\n      49 |     SignupPage.enterEmail(email_new)\n      50 |     LoginPage.enterPassword(short_password)\n      51 |     SignupPage.clickSignupSubmit()\n      52 |     await t.expect(SignupPage.Signup_Invalid_Credentials_Message.innerText).contains(shortPasswordMessage);\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:47:16)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:267)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:605)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:770)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:511)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:46:5)\n\n2) undefinedUnhandled promise rejection:\n\n     { code: 'E26', isTestCafeError: true, callsite: CallsiteRecord { filename: 'D:\\\\Arpit\\\\Cypress_TestCafe\\\\TestCafe_Project\\\\Pages\\\\SignupPage.js', lineNum: 29, callsiteFrameIdx: 5, stackFrames: [\n   [Object],    [Object],    [Object],\n   [Object],    [Object],    [Object],\n   CallSite {}, [Object],    [Object],\n   [Object],    CallSite {}, [Object],\n   [Object],    [Object],    CallSite {},\n   [Object],    [Object],    [Object],\n   CallSite {}, [Object],    [Object],\n   [Object],    [Object],    [Object],\n   [Object],    [Object],    CallSite {},\n   [Object]\n   ], isV8Frames: true }, id: 'E3wbRWB' }\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Unsuccessful Signup with invalid password</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioUnsuccessful Signup with no fields",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Unsuccessful Signup with no fields",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:1:0"
+            },
+            "name": "Unsuccessful Signup with no fields",
+            "result": {
+              "duration": 27782,
+              "error_message": "1) The element that matches the specified selector is not visible.\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)\n\n      25 |      \n      26 |    \n      27 | \n      28 |     async clickSignup(){\n      29 |         await t\n   --------------------------------------------\n    &rarr; 30 |         .maximizeWindow().click(this.Signup_Button)\n   --------------------------------------------\n      31 |     }\n      32 |     async enterFullName(name){\n      33 |         await t \n      34 |         .typeText(this.Signup_Name_Input, name)\n      35 |     }\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:30:27)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:293)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:631)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:796)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:537)\n      at SignupPage.clickSignup (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:28:24)\n\n      53 | \n      54 | });\n      55 | \n      56 | \n      57 | test('Unsuccessful Signup with no fields', async t => {\n   --------------------------------------------\n    &rarr; 58 |     SignupPage.clickSignup()\n   --------------------------------------------\n      59 |     SignupPage.clickSignupSubmit()\n      60 |     await t.expect(SignupPage.Signup_Invalid_Credentials_Message.innerText).contains(nofieldError);\n      61 | \n      62 | });\n      63 | \n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:58:16)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:267)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:605)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:770)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:511)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:57:5)\n\n2) undefinedUnhandled promise rejection:\n\n     { code: 'E26', isTestCafeError: true, callsite: CallsiteRecord { filename: 'D:\\\\Arpit\\\\Cypress_TestCafe\\\\TestCafe_Project\\\\Pages\\\\SignupPage.js', lineNum: 29, callsiteFrameIdx: 5, stackFrames: [\n   [Object],    [Object],    [Object],\n   [Object],    [Object],    [Object],\n   CallSite {}, [Object],    [Object],\n   [Object],    CallSite {}, [Object],\n   [Object],    [Object],    CallSite {},\n   [Object],    [Object],    [Object],\n   CallSite {}, [Object],    [Object],\n   [Object],    [Object],    [Object],\n   [Object],    [Object],    CallSite {},\n   [Object]\n   ], isV8Frames: true }, id: 'ZAy_wLF' }\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Unsuccessful Signup with no fields</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioSuccessful Signup",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Successful Signup",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:1:0"
+            },
+            "name": "Successful Signup",
+            "result": {
+              "duration": 58865,
+              "error_message": "1) The element that matches the specified selector is not visible.\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)\n\n      25 |      \n      26 |    \n      27 | \n      28 |     async clickSignup(){\n      29 |         await t\n   --------------------------------------------\n    &rarr; 30 |         .maximizeWindow().click(this.Signup_Button)\n   --------------------------------------------\n      31 |     }\n      32 |     async enterFullName(name){\n      33 |         await t \n      34 |         .typeText(this.Signup_Name_Input, name)\n      35 |     }\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:30:27)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:293)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:631)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:796)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:1:537)\n      at SignupPage.clickSignup (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Pages\\SignupPage.js:28:24)\n\n      60 |     await t.expect(SignupPage.Signup_Invalid_Credentials_Message.innerText).contains(nofieldError);\n      61 | \n      62 | });\n      63 | \n      64 | test('Successful Signup', async t => {\n   --------------------------------------------\n    &rarr; 65 |     SignupPage.clickSignup()\n   --------------------------------------------\n      66 |     SignupPage.enterFullName(name)\n      67 |     SignupPage.enterEmail(email_new)\n      68 |     console.log(email_new)\n      69 |     LoginPage.enterPassword(password)\n      70 |     SignupPage.clickSignupSubmit()\n\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:65:16)\n      at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:267)\n      at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:605)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:770)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:511)\n      at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:64:5)\n\n2) undefinedUnhandled promise rejection:\n\n     { code: 'E26', isTestCafeError: true, callsite: CallsiteRecord { filename: 'D:\\\\Arpit\\\\Cypress_TestCafe\\\\TestCafe_Project\\\\Pages\\\\SignupPage.js', lineNum: 29, callsiteFrameIdx: 5, stackFrames: [\n   [Object],    [Object],    [Object],\n   [Object],    [Object],    [Object],\n   CallSite {}, [Object],    [Object],\n   [Object],    CallSite {}, [Object],\n   [Object],    [Object],    CallSite {},\n   [Object],    [Object],    [Object],\n   CallSite {}, [Object],    [Object],\n   [Object],    [Object],    [Object],\n   [Object],    [Object],    CallSite {},\n   [Object]\n   ], isV8Frames: true }, id: 'pbCDqMj' }\n\n   Browser: Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Successful Signup</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Signup",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "97.0.4692.99"
+      },
+      "device": "Windows  (Emulating iPhone X)",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-01-24T05:51:22.059Z",
+      "startTime": "2022-01-24T05:47:04.050Z"
+    },
+    "name": "Signup",
+    "runInfo": {
+      "endTime": "2022-01-24T05:51:22.053Z",
+      "passed": 3,
+      "startTime": "2022-01-24T05:47:04.050Z",
+      "testCount": 13,
+      "userAgents": [
+        "Chrome 97.0.4692.99 / Windows 10",
+        "Microsoft Edge 97.0.1072.69 / Windows 10",
+        "Chrome 97.0.4692.99 / Windows 10 (Emulating iPhone X)"
+      ],
+      "warnings": [
+        "The \"src\" option from the configuration file will be ignored.",
+        "You passed a Selector object to 't.expect()'.\nIf you want to check that a matched element exists, pass the 'selector.exists' value instead.\n\n   52 |\n   53 |test('Unsuccessful Login with no username', async t => {\n   54 |    //LoginPage.clickLogin()\n   55 |    LoginPage.enterPassword(validPassword)\n   56 |    LoginPage.clickLoginSubmit() \n > 57 |    await t.expect(LoginPage.LoginPage_ValidUsername_Message).contains(nofieldError)\n   58 |});\n   59 |\n   60 |test('Unsuccessful Login with no password', async t => {\n   61 |    //LoginPage.clickLogin()\n   62 |    LoginPage.enterUserName(validUsername)\n\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:57:63)\n   at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:263)\n   at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:601)\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:766)\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:507)\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:53:5)",
+        "You passed a Selector object to 't.expect()'.\nIf you want to check that a matched element exists, pass the 'selector.exists' value instead.\n\n   59 |\n   60 |test('Unsuccessful Login with no password', async t => {\n   61 |    //LoginPage.clickLogin()\n   62 |    LoginPage.enterUserName(validUsername)\n   63 |    LoginPage.clickLoginSubmit() \n > 64 |    await t.expect(LoginPage.LoginPage_ValidPassword_Message).contains(nofieldError)    \n   65 |});\n   66 |\n   67 |test('Unsuccessful Login with no username and password', async t => {\n   68 |    //LoginPage.clickLogin()\n   69 |    LoginPage.clickLoginSubmit() \n\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:64:63)\n   at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:263)\n   at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:601)\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:766)\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:507)\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:60:5)",
+        "You passed a Selector object to 't.expect()'.\nIf you want to check that a matched element exists, pass the 'selector.exists' value instead.\n\n   65 |});\n   66 |\n   67 |test('Unsuccessful Login with no username and password', async t => {\n   68 |    //LoginPage.clickLogin()\n   69 |    LoginPage.clickLoginSubmit() \n > 70 |    await t.expect(LoginPage.LoginPage_ValidPassword_Message).contains(nofieldError)   \n   71 |    await t.expect(LoginPage.LoginPage_ValidUsername_Message).contains(nofieldError)     \n   72 |});\n   73 |\n   74 |\n   75 |test('Successful Logout', async t => {\n\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:70:63)\n   at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:263)\n   at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:601)\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:766)\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:3:507)\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Login.js:67:5)",
+        "You passed a Selector object to 't.expect()'.\nIf you want to check that a matched element exists, pass the 'selector.exists' value instead.\n\n   75 |   SignupPage.enterTestPassword(password)\n   76 |   await t.wait(10000)\n   77 |   SignupPage.clickConfirmationMail()\n   78 |   await t.wait(5000)\n   79 |   await t.switchToWindow(w => w.url.host === confirmation_host_url)\n > 80 |   await t.expect(SignupPage.SignupConfirmation_Message).ok();\n   81 |\n   82 |});\n\n   at <anonymous> (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:80:58)\n   at asyncGeneratorStep (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:267)\n   at _next (D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:3:605)"
+      ]
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@successful"
+      },
+      {
+        "line": 0,
+        "name": "@signup"
+      },
+      {
+        "line": 0,
+        "name": "@unsuccessful"
+      },
+      {
+        "line": 0,
+        "name": "@fields"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      },
+      {
+        "line": 0,
+        "name": "@password"
+      },
+      {
+        "line": 0,
+        "name": "@email"
+      },
+      {
+        "line": 0,
+        "name": "@already"
+      },
+      {
+        "line": 0,
+        "name": "@existing"
+      }
+    ],
+    "uri": "D:\\Arpit\\Cypress_TestCafe\\TestCafe_Project\\Modules\\Signup.js:1"
+  }
+]
