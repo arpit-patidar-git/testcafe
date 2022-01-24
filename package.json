@@ -1,0 +1,22 @@
+{
+  "name": "test_package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "D://Arpit/Cypress_TestCafe/TestCafe_Project/Modules/*.js",
+    "test:reports": "testcafe browsers Modules/*.js --skips-js-errors --reporter cucumber-json --reporter-json-folder=reports",
+    "createReport": "node report-generator.js"
+  },
+  "author": "Arpit",
+  "license": "ISC",
+  "dependencies": {
+    "mailosaur": "^8.1.1",
+    "multiple-cucumber-html-reporter": "^1.18.3",
+    "node-uuid": "^1.4.8",
+    "testcafe": "^1.18.2",
+    "testcafe-reporter-cucumber-json": "^6.3.0",
+    "testcafe-reporter-html": "^1.4.6"
+    
+  }
+}
