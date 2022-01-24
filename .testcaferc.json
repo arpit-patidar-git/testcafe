@@ -1,9 +1,9 @@
 { 
-    "browsers": ["chrome"],
+    "browsers": ["chrome", "edge", "chrome:emulation:device=iphone X"],
     "src": "Modules/*.js",
     "skipJsErrors": true, 
     "concurrency": 1,
-    "selectorTimeOut": 5000,
+    "selectorTimeOut": 10000,
     "assertionTimeOut": 5000,
     "pageLoadTimeOut": 5000,
     "speed": 1
